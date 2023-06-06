@@ -133,6 +133,7 @@ background-color: var(--verde);
     display: flex;
     justify-content: space-between;
     width: 80%;
+    /* background-color: aqua; */
 
     
     
@@ -143,39 +144,95 @@ background-color: var(--verde);
     align-items: center;
     flex-direction: column;
     font-family: var(--font1);
+    /* background-color: blue; */
 
 }
 .missao h2{
-    padding-top: 20px;
+    /* padding-top: 10px; */
     font-family: var(--font1);
-    font-size: 20px;
+    /* font-size: 20px; */
 }
 .missao p{
     display: flex;
-    padding-top:20px;
-    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    
+    /* padding-top:20px; */
+    width:350px;
+    
       
 
 }
+.missao img {
+    width: 300px;
+    height: 280px;
+}
+/* .visao img{
+    background-color: blueviolet;
+} */
 .visao{
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+    width: 350px;
     font-family: var(--font1);
+    /* background-color: beige; */
 
 }
 .visao p{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction:column;
+    text-align: center;
 }
 .valores{
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+    width: 350px;
     font-family: var(--font1);
+    /* background-color: bisque; */
 
 }
+/* .valores img {
+    background-color: chartreuse;
+} */
 .valores p{
     display: flex;
+    text-align: center;
+}
+footer {
+    background-color: var(--verde);
+    width: 100%;
+    height: 300px;
+}
+.secao_geralrodape {
+    width: 25%;
+    height: 300px;
+    background-color: lightpink;
+}
+.secao_geralrodape {
+    display: flex;
+    flex-direction: column;
+}
+.email {
+    display: flex;
+    font-family: var(--font2);
+}
+.watsap {
+    display: flex;
+    display: flex;
+    font-family: var(--font2);
+}
+.endereco {
+    display: flex;
+    font-family: var(--font2);
+}
+.endereco p {
+    font-family: var(--font2);
 }
