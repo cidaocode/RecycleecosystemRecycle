@@ -1,178 +1,227 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
-    
-}
 
-:root{
---verde: #1B8D73;
---font1: 'Poppins', sem serifa;
---font2: 'Inter', sem serifa;
---branco: white;
 
 }
-header{
+
+:root {
+    --verde: #1B8D73;
+    --font1: 'Poppins', sem serifa;
+    --font2: 'Inter', sem serifa;
+    --branco: white;
+
+}
+
+header {
     /* width: 1400px; */
-background-color: var(--verde);
+    background-color: var(--verde);
+    max-width: auto;
 
-} 
+}
 
 
-.header_acessos{
-    width: 1400px; 
+.header_acessos {
+    /* width: 1400px;  */
+    width: 90%;
+    max-width: 1400px;
     margin: 0 auto;
     display: flex;
-    align-items:center;
+    align-items: center;
     height: 80px;
 
 
 }
-.header_acessos nav{
+
+.menu_barras {
+    fill: aliceblue;
+    display: none;
+
+
+}
+
+.menu_barras svg {
+    width: 40px;
+    height: 40px;
+
+}
+
+.header_acessos nav {
     display: flex;
     justify-content: space-around;
-    align-items:center;
+    align-items: center;
     width: 100%;
-    font-family:var(--font1) ;
-    color:var(--branco);
-    font-weight: 700;
-
-}  
-
-.header_acessos a{
+    font-family: var(--font1);
     color: var(--branco);
-    text-decoration:none;
+    font-weight: 700px;
+    /* max-width: auto; */
+
+}
+
+.header_acessos a {
+    color: var(--branco);
+    text-decoration: none;
     text-transform: uppercase;
 }
-.botao{
+
+.botao {
     border: solid 2px var(--branco);
     padding: 5px 30px;
     border-radius: 30%;
 }
-.banner{
+
+.banner {
     background-image: url(./img/Banner1.png);
-    height: 850px; 
+    /* height: 850px;  */
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 50px;
 }
-.bann1{
+
+.bann1 {
     width: 200px;
     height: 200px;
 }
-.conteudocomfoto{
+
+.conteudocomfoto {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1400px;
-    height: 500px;
+    max-width: 1400px;
+    width: 90%;
+    /* height: 500px; */
     margin-top: 50px;
-    
-    
+
+
+
+
 
 }
-.textobanner{
-    
+
+.textobanner {
+
     justify-content: space-around;
     align-items: center;
     width: 50%;
-    height: 500px;
+    /* height: 500px; */
 
 }
-.textobanner h2{
-  font-family: var(--font1);
-  font-size: 30px;
-  color: var(--branco);
-    
+
+.textobanner h2 {
+    font-family: var(--font1);
+    font-size: 30px;
+    color: var(--branco);
+
 
 }
-.textobanner p{
+
+.textobanner p {
     font-family: var(--font2);
     font-size: 23px;
     margin-top: 70px;
     width: 80%;
+    /* height: none; */
     color: var(--branco);
+    /* padding:; */
+    /* max-width:; */
+    /* background-color: beige; */
 }
-.conteudocomfoto img{
-    width:45%;
+
+.conteudocomfoto img {
+    width: 45%;
     height: 90%;
-   
-    
+    max-width: auto;
+
+
 
 }
-.plano_fundo{
+
+.plano_fundo {
     width: 500px;
-    height: 400px;
+    /* height: 400px; */
+    padding: 50px 0;
 
 }
-.bann1{
-    width: 170; 
+
+.banner1 {
+    width: 170px;
     height: 170px;
-    
-}
-.fotodadireita{
-    display: flex;
-    
+
 }
 
-.plano_fundo{
+.fotodadireita {
+    display: flex;
+
+}
+
+.plano_fundo {
     background-image: url(./img/Banner2.png);
     width: 100%;
-    height: 870px;
+    /* height: 870px; */
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    
-    
+
+
+
 }
-.contaner_geral{
+
+.contaner_geral {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     display: flex;
     justify-content: space-between;
     width: 80%;
-    /* background-color: aqua; */
+    background-color: aqua;
+    max-width: 1400px;
 
-    
-    
+
+
 }
-.missao{
+
+.missao {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
     font-family: var(--font1);
-    /* background-color: blue; */
+    background-color: blue;
+    width: 300px;
+    height: 530px;
 
 }
-.missao h2{
+
+.missao h2 {
     /* padding-top: 10px; */
     font-family: var(--font1);
     /* font-size: 20px; */
 }
-.missao p{
+
+.missao p {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    
+
     /* padding-top:20px; */
-    width:350px;
-    
-      
+    width: 350px;
+
+
 
 }
+
 .missao img {
     width: 300px;
     height: 280px;
 }
+
 /* .visao img{
     background-color: blueviolet;
 } */
-.visao{
+.visao {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -182,14 +231,16 @@ background-color: var(--verde);
     /* background-color: beige; */
 
 }
-.visao p{
+
+.visao p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction:column;
+    flex-direction: column;
     text-align: center;
 }
-.valores{
+
+.valores {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -199,40 +250,90 @@ background-color: var(--verde);
     /* background-color: bisque; */
 
 }
+
 /* .valores img {
     background-color: chartreuse;
 } */
-.valores p{
+.valores p {
     display: flex;
     text-align: center;
+    /* background-color: blue; */
 }
+
 footer {
     background-color: var(--verde);
     width: 100%;
     height: 300px;
 }
+
 .secao_geralrodape {
     width: 25%;
     height: 300px;
     background-color: lightpink;
 }
+
 .secao_geralrodape {
     display: flex;
     flex-direction: column;
 }
+
 .email {
     display: flex;
     font-family: var(--font2);
 }
+
 .watsap {
     display: flex;
-    display: flex;
+
     font-family: var(--font2);
 }
+
 .endereco {
     display: flex;
     font-family: var(--font2);
 }
+
 .endereco p {
     font-family: var(--font2);
+}
+
+@media screen and (max-width:956px) {
+    .header_acessos nav {
+        display: none;
+    }
+
+    .menu_barras {
+        display: flex;
+    }
+
+    .header_acessos {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .conteudocomfoto {
+        flex-wrap: wrap;
+    }
+
+    .foto_grupo {
+        display: none;
+
+
+    }
+
+    .textobanner {
+        width: 100%;
+    }
+
+    .textobanner p {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:1120px) {
+    .contaner_geral{
+        flex-direction: column;
+    }
+
 }
